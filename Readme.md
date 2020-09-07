@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Kseniya Efremova](https://up.htmlacademy.ru/htmlcss/29/user/1469483).
-* Наставник: `Неизвестно`.
+* Наставник: [Ярослав Ярош] (https://htmlacademy.ru/profile/id1416501).
 
 ---
 
