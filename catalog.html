@@ -4,41 +4,48 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400&family=Exo+2&family=PT+Sans&family=PT+Sans+Narrow&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&family=Exo+2&family=PT+Sans+Narrow&family=PT+Sans:wght@400;700&display=swap&subset=cyrillic"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header>
-    <div>
-      <div>
-        <div>
-          <div>
-            <div>
-              <a href="#">техномарт</a>
-
-              <label for="search">Поиск:</label>
+    <div class="container">
+      <div class="header-wrapper">
+        <div class="head-wrapper">
+          <div class="head-wrapper__left">
+            <a class="head-wrapper__logo" href="index.html">техномарт</a>
+            <label class="head-wrapper__search" for="search">Поиск:
               <input type="text" id="search">
-            </div>
-            <div>
-              <a href="#">Закладки: 0</a>
-              <a href="#">Корзина: 0</a>
-              <button type="submit">Оформить заказ</button>
-            </div>
+            </label>
+          </div>
+          <div class="head-wrapper__right">
+            <a class="head-wrapper__right__bookmarks" href="#">Закладки: 0</a>
+            <a class="head-wrapper__right__basket-catalog" href="#">Корзина: 10</a>
+            <button class="head-wrapper__right__button" type="submit">Оформить заказ</button>
           </div>
         </div>
-        <div>
-          <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-          <div>
-            <a href="tel:+78125550555">+7 (812) 555-05-55</a>
-            <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <div class="middle-wrapper">
+          <h1 class="middle-wrapper__about">Интернет-магазин строительных материалов <br> и инструментов для ремонта
+          </h1>
+          <div class="middle-wrapper__contacts">
+            <a class="middle-wrapper__contacts__tel" href="tel:+78125550555">+7 (812) 555-05-55</a>
+            <p class="middle-wrapper__contacts__adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
           </div>
-          <div>
-            <a href="#">Равшан Джамшутович</a>
-            <a href="#">Мои заказы</a>
-            <a href="#">Личный кабинет</a>
+          <div class="middle-wrapper__login-in">
+            <a class="middle-wrapper__login-in__user" href="#">Равшан Джамшутович</a>
+            <a class="middle-wrapper__login-in__orders" href="#">Мои заказы</a>
+            <a class="middle-wrapper__login-in__cabinet" href="#">Личный кабинет</a>
           </div>
         </div>
-        <nav>
-          <ul>
+        <nav class="navigation-wrapper">
+          <ul class="navigation-wrapper__items">
             <li>
               <a href="#">Главная</a>
             </li>
@@ -46,7 +53,7 @@
               <a href="#">Компания</a>
             </li>
             <li>
-              <a href="catalog.html">Каталог</a>
+              <a href="#">Каталог</a>
             </li>
             <li>
               <a href="#">Новости</a>
