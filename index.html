@@ -10,6 +10,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&family=Exo+2&family=PT+Sans+Narrow&family=PT+Sans:wght@400;700&display=swap&subset=cyrillic"
     rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cuprum&family=Exo+2&family=PT+Sans+Narrow&family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap&subset=cyrillic"
+    rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -69,113 +72,162 @@
       </div>
     </div>
   </header>
-  <main>
+  <main class="container">
     <section class="promo">
       <h2 class="visually-hidden">Промо</h2>
-      <div class="container">
-        <div>
-          <ul>
-            <li>
-              <h3>Материалы</h3>
-              <a href="#">на любой вкус</a>
-            </li>
-            <li>
-              <h3>Инструмент</h3>
-              <a href="#">на все случаи</a>
-            </li>
-            <li>
-              <h3>Техника</h3>
-              <a href="#">для стройки</a>
-            </li>
-            <li>
-              <div>
-                <h3>Перфораторы</h3>
-                <p>Настоящие мужские игрушки</p>
-                <a href="catalog.html">Открыть каталог</a>
-                <button type="button" name="left"></button>
-                <button type="button" name="right"></button>
-              </div>
-              <div>
-                <h3>Дрели</h3>
-                <p>Соседям на радость!</p>
-                <a href="#">Открыть каталог</a>
-                <button type="button" name="left"></button>
-                <button type="button" name="right"></button>
-              </div>
-            </li>
-            <li>
-              <h3>Скидки 50%</h3>
-              <a href="#">на 350 товаров</a>
-            </li>
-            <li>
-              <h3>Доставка</h3>
-              <a href="#">бесплатно</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div>
-        <div>
-          <h2>Популярные товары</h2>
-          <a href="#">Все популярные товары</a>
-        </div>
-        <div>
-          <ul>
-            <li>
-              <p>Перфоратор BOSCH BFG 9000</p>
-              <p>32500 р.</p>
-              <a href="#">25500 р.</a>
-            </li>
-            <li>
-              <p>Перфоратор BOSCH BFG 3000</p>
-              <p>22500 р.</p>
-              <a href="#">15500 р.</a>
-            </li>
-            <li>
-              <p>Перфоратор BOSCH BFG 6000</p>
-              <p>30500 р.</p>
-              <a href="#">25500 р.</a>
-            </li>
-            <li>
-              <p>Перфоратор BOSCH BFG 2000</p>
-              <a href="#">12500 р.</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div>
-        <div>
-          <div>
-            <h2>Популярные производители</h2>
-            <a href="#">Все производители</a>
+      <div class="promo-wrapper">
+        <div class="promo-wrapper-left">
+          <div class="promo-wrapper__onetwo">
+            <div class="promo-wrapper__items promo-wrapper__items-yellow new">
+              <h3 class="promo-wrapper__items-name ">Материалы</h3>
+              <a class="promo-wrapper__items-about" href="#">на любой вкус</a>
+            </div>
+            <div class="promo-wrapper__items promo-wrapper__items-blue">
+              <h3 class="promo-wrapper__items-name">Инструмент</h3>
+              <a class="promo-wrapper__items-about" href="#">на все случаи</a>
+            </div>
           </div>
-          <div>
-            <ul>
-              <li>
-                <a href="#"></a>
+          <div class="promo-wrapper__slider">
+            <ul class="slider-choice">
+              <li class="slider-choice__item">
+                <input id="slide-one" type="radio" name="slide" checked>
+                <label for="slide-one"></label>
               </li>
-              <li>
-                <a href="#"></a>
-              </li>
-              <li>
-                <a href="#"></a>
-              </li>
-              <li>
-                <a href="#"></a>
-              </li>
-              <li>
-                <a href="#"></a>
-              </li>
-              <li>
-                <a href="#"></a>
+              <li class="slider-choice__item">
+                <input id="slide-two" type="radio" name="slide">
+                <label for="slide-two"></label>
               </li>
             </ul>
+            <div class="slider__slide-one slider__slide-active">
+              <h3 class="promo-wrapper__slider-name">Перфораторы</h3>
+              <p class="promo-wrapper__slider-about">Настоящие мужские игрушки</p>
+              <a class="promo-wrapper__slider-button" href="catalog.html">Открыть каталог</a>
+              <button class="promo-wrapper__slider-button-left" type="button" name="left">
+                <img src="img/index-icon-left.png" alt="left" width="22" height="40">
+              </button>
+              <button class="promo-wrapper__slider-button-right" type="button" name="right">
+                <img src="img/index-icon-right.png" alt="right" width="22" height="40">
+              </button>
+            </div>
+            <div class="slider__slide-two">
+              <h3 class="promo-wrapper__slider-name">Дрели</h3>
+              <p class="promo-wrapper__slider-about">Соседям на радость!</p>
+              <a class="promo-wrapper__slider-button" href="#">Открыть каталог</a>
+              <button class="promo-wrapper__slider-button-left" type="button" name="left">
+                <img src="img/index-icon-left.png" alt="left" width="22" height="40">
+              </button>
+              <button class="promo-wrapper__slider-button-right" type="button" name="right">
+                <img src="img/index-icon-right.png" alt="right" width="22" height="40">
+              </button>
+            </div>
           </div>
         </div>
+        <div class="promo-wrapper-right">
+          <div class="promo-wrapper__items promo-wrapper__items-violet">
+            <h3 class="promo-wrapper__items-name">Техника</h3>
+            <a class="promo-wrapper__items-about" href="#">для стройки</a>
+          </div>
+          <div class="promo-wrapper__items promo-wrapper__items-green">
+            <h3 class="promo-wrapper__items-name">Скидки 50%</h3>
+            <a class="promo-wrapper__items-about" href="#">на 350 товаров</a>
+          </div>
+          <div class="promo-wrapper__items promo-wrapper__items-yellight">
+            <h3 class="promo-wrapper__items-name">Доставка</h3>
+            <a class="promo-wrapper__items-about" href="#">бесплатно</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="popular">
+      <div class="popular__headding">
+        <h2>Популярные товары:</h2>
+        <a class="popular__button" href="#">Все популярные товары</a>
+      </div>
+      <div class="popular__items">
+        <ul class="popular__items-list">
+          <li class="popular__items-item">
+            <div class="popular__img-wrapper">
+              <img src="img/index-BFG 9000.jpg" alt="Перфоратор BOSCH BFG 9000" width="184" height="164">
+            </div>
+            <p class="popular__items-name">Перфоратор BOSCH BFG 9000</p>
+            <p class="popular__items-oldPrice">32500 р.</p>
+            <a class="popular__items-price" href="#">25500 р.</a>
+          </li>
+          <li class="popular__items-item new">
+            <div class="popular__img-wrapper">
+              <img src="img/index-BFG 3000.jpg" alt="Перфоратор BOSCH BFG 3000" width="127" height="112">
+            </div>
+            <p class="popular__items-name">Перфоратор BOSCH BFG 3000</p>
+            <p class="popular__items-oldPrice">22500 р.</p>
+            <a class="popular__items-price" href="#">15500 р.</a>
+          </li>
+          <li class="popular__items-item">
+            <div class="popular__img-wrapper">
+              <img src="img/index-BFG 6000.jpg" alt="Перфоратор BOSCH BFG 6000" width="144" height="128">
+            </div>
+            <p class="popular__items-name">Перфоратор BOSCH BFG 6000</p>
+            <p class="popular__items-oldPrice">30500 р.</p>
+            <a class="popular__items-price" href="#">25500 р.</a>
+          </li>
+          <li class="popular__items-item new">
+            <div class="popular__img-wrapper">
+              <img src="img/index-BFG 2000.jpg" alt="Перфоратор BOSCH BFG 2000" width="127" height="112">
+            </div>
+            <p class="popular__items-name">Перфоратор BOSCH BFG 2000</p>
+            <p class="popular__items-oldPrice"></p>
+            <a class="popular__items-price" href="#">12500 р.</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="manufacturer">
+      <div class="manufacturer-wrapper">
+        <div class="popular__headding">
+          <h2>Популярные производители:</h2>
+          <a class="popular__button" href="#">Все производители</a>
+        </div>
+        <ul class="manufacturer-items">
+          <li>
+            <a href="#">
+              <img src="img/index-bosch.jpg" alt="BOSCH" width="220" height="145">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/index-makita.jpg" alt="MAKITA" width="220" height="145">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/index-dewalt.jpg" alt="DeWalt" width="220" height="145">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/index-inter.jpg" alt="ИНТЕРСКОЛ" width="220" height="145">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/index-hitachi.jpg" alt="HITACHI" width="220" height="145">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/index-lg.jpg" alt="LG" width="220" height="145">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/index-aeg.jpg" alt="AEG" width="220" height="145">
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="img/index-metabo.jpg" alt="metabo" width="220" height="145">
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
     <section>
