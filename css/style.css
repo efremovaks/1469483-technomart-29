@@ -2,8 +2,8 @@
     --basic-color: #000000;
     --basic-background-color: #ffffff;
     --basic-color-in-black: #ffffff;
-    --font-family-cuprum: 'Cuprum', sans-serif;
-    --font-family-PT: 'PT Sans', sans-serif;
+    --font-family-cuprum: "Cuprum", sans-serif;
+    --font-family-PT: "PT Sans", sans-serif;
     --main-menu-background: #32425c;
     --headding-color: #32425C;
     --old-price-color: #A9A9A9;
@@ -23,7 +23,7 @@ body {
     display: grid;
     grid-template-rows: min-content 1fr min-content;
     align-content: start;
-    font-family: 'Cuprum', 'PT Sans', 'Arial', sans-serif;
+    font-family: "Cuprum", "PT Sans", "Arial", sans-serif;
     font-size: 13px;
     line-height: 24px;
     min-width: 1200px;
