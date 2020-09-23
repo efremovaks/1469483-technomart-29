@@ -2,8 +2,8 @@
     --basic-color: #000000;
     --basic-background-color: #ffffff;
     --basic-color-in-black: #ffffff;
-    --font-family-cuprum: font-family: 'Cuprum', sans-serif;
-    --font-family-PT: font-family: 'PT Sans', sans-serif;
+    --font-family-cuprum: 'Cuprum', sans-serif;
+    --font-family-PT: 'PT Sans', sans-serif;
     --main-menu-background: #32425c;
     --headding-color: #32425C;
     --old-price-color: #A9A9A9;
@@ -636,7 +636,7 @@ a {
     outline: none;
 }
 
-.new {
+.new::after {
     position: absolute;
     top: 0;
     left: 0;
@@ -787,7 +787,6 @@ a {
     width: 170px;
     margin: 0;
     padding-top: 10px;
-    letter-spacing: 1px;
 }
 
 .popular__items-oldPrice {
