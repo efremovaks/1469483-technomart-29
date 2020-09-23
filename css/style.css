@@ -638,12 +638,13 @@ a {
 
 .new::after {
     position: absolute;
+    content: "";
+    width: 70px;
+    height: 70px;
     top: 0;
-    left: 0;
+    right: 0;
     background-image: url(../img/index-new.png);
     background-repeat: no-repeat;
-    background-position: 100% 0%;
-    z-index: 100;
 }
 
 .slider-choice {
@@ -824,9 +825,7 @@ a {
     text-transform: uppercase;
     color: var(--basic-color-in-black);
     padding-top: 10px;
-    padding-right: 44px;
     padding-bottom: 10px;
-    padding-left: 32px;
 }
 
 .popular__img-wrapper {
