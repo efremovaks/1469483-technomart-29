@@ -448,6 +448,7 @@ a {
 }
 
 .promo-wrapper__items {
+    position: relative;
     width: 300px;
     height: 122px;
     border: none;
@@ -472,11 +473,12 @@ a {
     font-family: var(--font-family-cuprum);
     text-transform: uppercase;
     font-size: 14px;
+    text-align: center;
     line-height: 18px;
     margin-left: 23px;
-    margin-top: 14px;
-    padding-top: 6px;
-    padding-left: 27px;
+    margin-top: 13px;
+    padding-top: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .promo-wrapper__items-yellow {
@@ -635,6 +637,9 @@ a {
 }
 
 .new {
+    position: absolute;
+    top: 0;
+    left: 0;
     background-image: url(../img/index-new.png);
     background-repeat: no-repeat;
     background-position: 100% 0%;
@@ -782,6 +787,7 @@ a {
     width: 170px;
     margin: 0;
     padding-top: 10px;
+    letter-spacing: 1px;
 }
 
 .popular__items-oldPrice {
