@@ -1046,11 +1046,11 @@ a {
     margin: 0 auto;
 }
 
-.contacts-left {
+.contacts-wrapper__left {
     width: 480px;
 }
 
-.contacts-left__header, .contacts-right__header {
+.contacts-wrapper__left-header, .contacts-right__header {
     font-family: var(--font-family-cuprum);
     font-style: normal;
     font-weight: normal;
@@ -1062,7 +1062,7 @@ a {
     padding-bottom: 24px;
 }
 
-.contacts-left__about, .contacts-left__wecan, .contacts-right__about {
+.contacts-wrapper__left-about, .contacts-left__wecan, .contacts-right__about {
     font-family: var(--font-family-PT);
     font-style: normal;
     font-weight: normal;
@@ -1077,12 +1077,12 @@ a {
     width: 450px;
 }
 
-.contacts-left__wecan {
+.contacts-wrapper__left-wecan {
     width: 430px;
     padding-bottom: 2px;
 }
 
-.contacts-left__wecan-list {
+.wecan-list {
     position: relative;
     list-style: none;
     padding: 0;
@@ -1110,7 +1110,7 @@ a {
     margin-top: 11px;
 }
 
-.contacts-left__button, .contacts-right__button {
+.contacts-wrapper__left-button, .contacts-right__button {
     display: block;
     font-family: var(--font-family-cuprum);
     font-style: normal;
