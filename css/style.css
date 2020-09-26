@@ -701,6 +701,7 @@ a {
     margin-bottom: 68px;
 }
 
+.manufacturer-wrapper__popular-headding,
 .popular__headding {
     display: flex;
     justify-content: space-between;
@@ -711,6 +712,7 @@ a {
     margin-bottom: 20px;
 }
 
+.manufacturer-wrapper__popular-headding h2,
 .popular__headding h2 {
     margin: 0;
     font-family: var(--font-family-cuprum);
@@ -725,6 +727,7 @@ a {
     padding-left: 27px;
 }
 
+.manufacturer-wrapper__popular-button,
 .popular__button {
     display: block;
     width: 192px;
@@ -746,6 +749,7 @@ a {
     margin-right: 17px;
 }
 
+.manufacturer-wrapper__items,
 .popular__items {
     width: 940px;
     min-height: 320px;
@@ -846,7 +850,7 @@ a {
     margin: 0 auto;
 }
 
-.manufacturer-items {
+.manufacturer-wrapper__items {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -855,26 +859,26 @@ a {
     margin: 0 auto;
 }
 
-.manufacturer-items li {
+.manufacturer-wrapper__items li {
     margin-bottom: 12px;
 }
 
 /* Сервисы */
 
-.service {
+.service-slider {
     height: 522px;
     margin-bottom: 71px;
     background-color: #F1F5F7;
 }
 
-.service-wrapper__head {
+.service-slider__head {
     padding-top: 65px;
     padding-right: 0;
     padding-bottom: 20px;
     padding-left: 130px;
 }
 
-.service-wrapper__header {
+.service-slider__header {
     font-family: var(--font-family-cuprum);
     font-style: normal;
     font-weight: normal;
@@ -886,7 +890,7 @@ a {
     padding-bottom: 25px;
 }
 
-.service-wrapper__about {
+.service-slider__about {
     font-family: var(--font-family-PT);
     font-style: normal;
     font-weight: normal;
@@ -953,7 +957,6 @@ a {
 .service-slider__input:checked+.service-slider__name {
     color: #32425C;
     background: #ffffff;
-    border-top: solid 2px #32425C;
 }
 
 .service-slider__description {
