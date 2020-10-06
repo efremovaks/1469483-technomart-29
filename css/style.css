@@ -1423,7 +1423,7 @@ a {
     padding-left: 20px;
 }
 
-.cost-filter, .proizvoditeli, .energy {
+.cost-filter, .company, .energy {
     border: none;
     margin-top: 13px;
     margin-right: 0px;
@@ -1545,9 +1545,9 @@ a {
     left: 160px;
 }
 
-/* proizvoditeli  */
+/* company  */
 
-.proizvoditeli-list {
+.company-list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -1555,16 +1555,16 @@ a {
     padding-bottom: 26px;
 }
 
-.proizvoditeli-list__item {
+.company-list__item {
     padding-left: 35px;
     margin-bottom: 17px;
 }
 
-.proizvoditeli-list__item:last-child, .energy-list__item:last-child {
+.company-list__item:last-child, .energy-list__item:last-child {
     margin-bottom: 0;
 }
 
-.proizvoditeli-list__name {
+.company-list__name {
     position: relative;
     font-family: var(--font-family-PT);
     font-style: normal;
@@ -1577,7 +1577,7 @@ a {
     user-select: none;
 }
 
-.proizvoditeli-list__checkbox:checked+.proizvoditeli-list__name::after {
+.company-list__checkbox:checked+.company-list__name::after {
     position: absolute;
     top: -1px;
     left: -35px;
@@ -1589,11 +1589,11 @@ a {
     cursor: pointer;
 }
 
-.proizvoditeli-list__checkbox:checked+.proizvoditeli-list__name::before {
+.company-list__checkbox:checked+.company-list__name::before {
     display: none;
 }
 
-.proizvoditeli-list__checkbox+.proizvoditeli-list__name::before {
+.company-list__checkbox+.company-list__name::before {
     position: absolute;
     top: -1px;
     left: -35px;
