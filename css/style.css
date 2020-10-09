@@ -446,6 +446,10 @@ a {
     opacity: 0.3;
 }
 
+.middle-wrapper__login-in-orders:hover, .middle-wrapper__login-in-cabinet:hover {
+    color: #EE3643;
+}
+
 .middle-wrapper__login-in-user:active, .middle-wrapper__login-in-orders:active, .middle-wrapper__login-in-cabinet:active {
     color: #c5c5c5;
 }
@@ -459,9 +463,6 @@ a {
     padding-top: 5px;
 }
 
-.middle-wrapper__login-in-orders:hover, .middle-wrapper__login-in-cabinet:hover {
-    color: #EE3643;
-}
 
 .middle-wrapper__login-in-orders {
     position: relative;
