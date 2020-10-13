@@ -70,18 +70,13 @@ var slides = document.querySelectorAll(".slider-list__item")
 var slidesButtonLeft = document.querySelector(".promo-wrapper__slider-button-left");
 var slidesButtonRight = document.querySelector(".promo-wrapper__slider-button-right");
 var slidesDot = document.querySelectorAll(".slider-choice__item");
-var indexSlide
-var indexDot
 
-for (indexSlide = 0; indexSlide < slides.length; ++indexSlide) {
-    console.log(slides[indexSlide]);
+slidesButtonLeft.onclick = function() {
+    slides[0].classList.toggle("slider__slide-active");
+    slides[1].classList.toggle("slider__slide-active");
+};
 
-    slidesButtonLeft.onclick = function () {
-        if (slides[indexSlide[0]].classList.contains("slider__slide-active")) 
-        {
-            console.log("ACTIVE")
-        }
-    }
-
-
+slidesButtonRight.onclick = function() {
+    slides[0].classList.toggle("slider__slide-active");
+    slides[1].classList.toggle("slider__slide-active");
 };

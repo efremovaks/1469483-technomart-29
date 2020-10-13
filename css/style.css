@@ -1179,19 +1179,19 @@ a {
 .delivery {
     background-image: url(../img/index-deliv.png);
     background-repeat: no-repeat;
-    background-position: 81% 0%;
+    background-position: 65% 110%;
 }
 
 .garant {
     background-image: url(../img/index-rarant.png);
     background-repeat: no-repeat;
-    background-position: 54% 50%;
+    background-position: 49% 50%;
 }
 
 .credit {
     background-image: url(../img/index-credit.png);
     background-repeat: no-repeat;
-    background-position: 71% 25%;
+    background-position: 55% -407%;
 }
 
 /* Контакты */
