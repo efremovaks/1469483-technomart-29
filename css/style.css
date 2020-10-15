@@ -2333,7 +2333,8 @@ a {
     display: none;
     position: absolute;
     top: 2369px;
-    right: 229px;
+    right: 0;
+    left: 0;
     width: 943px;
     height: 449px;
     margin: 0 auto;
