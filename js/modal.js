@@ -66,7 +66,7 @@ window.addEventListener("keydown", function (evt) {
 
 //   slider
 
-var slides = document.querySelectorAll(".slider-list__item")
+var slides = document.querySelectorAll(".slider-list__item");
 var slidesButtonLeft = document.querySelector(".promo-wrapper__slider-button-left");
 var slidesButtonRight = document.querySelector(".promo-wrapper__slider-button-right");
 var slidesDot = document.querySelectorAll(".slider-choice__item");
