@@ -130,11 +130,11 @@ a {
 }
 
 .head-wrapper__search input:focus {
-    background-image: url(../img/index-icon-search_focus.png);
+    background-image: url(../img/index-icon-search-focus.png);
 }
 
 .head-wrapper__search input:hover {
-    background-image: url(../img/icon-search_hover.png);
+    background-image: url(../img/icon-search-hover.png);
 }
 
 .head-wrapper__search input {
@@ -432,7 +432,7 @@ a {
 .middle-wrapper__login-in-user::before {
     position: absolute;
     content: "";
-    background-image: url(../img/Catalog-icon-user.png);
+    background-image: url(../img/catalog-icon-user.png);
     background-repeat: no-repeat;
     width: 20px;
     height: 17px;
@@ -444,7 +444,7 @@ a {
 .middle-wrapper__login-in-user::after {
     position: absolute;
     content: "";
-    background-image: url(../img/Catalog-icon-login.png);
+    background-image: url(../img/catalog-icon-login.png);
     background-repeat: no-repeat;
     width: 20px;
     height: 17px;
@@ -488,7 +488,7 @@ a {
 .middle-wrapper__login-in-orders::after {
     position: absolute;
     content: "";
-    background-image: url(../img/Catalog-dot.png);
+    background-image: url(../img/catalog-dot.png);
     background-repeat: no-repeat;
     width: 6px;
     height: 7px;
@@ -1882,7 +1882,7 @@ a {
     content: "";
     width: 25px;
     height: 26px;
-    background-image: url(../img/Catalog-radio-off.png);
+    background-image: url(../img/catalog-radio-off.png);
     background-repeat: no-repeat;
     cursor: pointer;
     opacity: 0.5;
