@@ -488,7 +488,7 @@ a {
 .middle-wrapper__login-in-orders::after {
     position: absolute;
     content: "";
-    background-image: url(../img/catalog-dot.png);
+    background-image: url(../img/dot.png);
     background-repeat: no-repeat;
     width: 6px;
     height: 7px;
