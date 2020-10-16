@@ -432,7 +432,7 @@ a {
 .middle-wrapper__login-in-user::before {
     position: absolute;
     content: "";
-    background-image: url(../img/catalog-icon-user.png);
+    background-image: url(../img/catalog-user-ico.png);
     background-repeat: no-repeat;
     width: 20px;
     height: 17px;
@@ -444,7 +444,7 @@ a {
 .middle-wrapper__login-in-user::after {
     position: absolute;
     content: "";
-    background-image: url(../img/catalog-icon-login.png);
+    background-image: url(../img/catalog-login-ico.png);
     background-repeat: no-repeat;
     width: 20px;
     height: 17px;
@@ -1882,7 +1882,7 @@ a {
     content: "";
     width: 25px;
     height: 26px;
-    background-image: url(../img/catalog-radio-off.png);
+    background-image: url(../img/catalog-off-radio.png);
     background-repeat: no-repeat;
     cursor: pointer;
     opacity: 0.5;
